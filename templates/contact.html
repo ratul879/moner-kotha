@@ -1,0 +1,13 @@
+<!doctype html><html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>যোগাযোগ | মনের কথা</title><meta name="description" content="মনের কথা — আপনার কথা, আপনার নিরাপদ জায়গা।">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></head><body>
+<header class="top"><div class="wrap nav"><a class="brand" href="{{ url_for('p1') }}"><span class="brandmark">ম</span>মনের কথা</a>
+<nav class="menu"><a href="{{ url_for('p1') }}">১. আত্মনির্ভর</a><a href="{{ url_for('p2') }}">২. পরামর্শ</a><a href="{{ url_for('p3') }}">৩. সেবা</a><a href="{{ url_for('p4') }}">৪. তথ্য ও যোগাযোগ</a><a class="btn primary" href="{{ url_for('book') }}">সেশন বুক</a></nav></div></header>
+<section class="section"><div class="wrap grid2"><div><span class="pill">যোগাযোগ</span><h2>আমাদের সঙ্গে কথা বলুন</h2><p class="muted">ফোন/WhatsApp: 01735258091<br>নগদ: 01735258091</p><a class="btn primary" href="https://wa.me/8801735258091" target="_blank">WhatsApp</a></div>
+<form class="form" method="post"><div class="field"><label>নাম</label><input name="name" required></div><div class="field"><label>ফোন / ইমেইল</label><input name="contact" required></div><div class="field"><label>বিষয়</label><input name="title"></div><div class="field"><label>বার্তা</label><textarea name="message" rows="8" required></textarea></div><button class="btn primary" style="width:100%">বার্তা পাঠান</button></form></div></section>
+<footer><div class="wrap footgrid"><div><div class="foot-title">মনের কথা</div><p>শুনবো • পাশে থাকবো • সুস্থভাবে এগোতে সাহায্য করবো</p><p>ফোন / WhatsApp: <b>01735258091</b><br>নগদ: <b>01735258091</b></p></div>
+<div><div class="foot-title">দ্রুত লিংক</div><a class="footlink" href="{{ url_for('book') }}">অ্যাপয়েন্টমেন্ট</a><a class="footlink" href="{{ url_for('anonymous') }}">বেনামী বার্তা</a><a class="footlink" href="{{ url_for('status') }}">স্ট্যাটাস দেখুন</a></div>
+<div><div class="foot-title">সতর্কতা</div><p class="small">এই সাইট জরুরি চিকিৎসা/ক্রাইসিস সেবার বিকল্প নয়। জরুরি বিপদে স্থানীয় জরুরি সেবা বা কাছের হাসপাতালের সহায়তা নিন।</p></div></div>
+<div class="wrap copy">© 2026 মনের কথা — সর্বস্বত্ব সংরক্ষিত</div></footer></body></html>

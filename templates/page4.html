@@ -1,0 +1,22 @@
+<!doctype html><html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>তথ্য ও যোগাযোগ | মনের কথা</title><meta name="description" content="মনের কথা — আপনার কথা, আপনার নিরাপদ জায়গা।">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></head><body>
+<header class="top"><div class="wrap nav"><a class="brand" href="{{ url_for('p1') }}"><span class="brandmark">ম</span>মনের কথা</a>
+<nav class="menu"><a href="{{ url_for('p1') }}">১. আত্মনির্ভর</a><a href="{{ url_for('p2') }}">২. পরামর্শ</a><a href="{{ url_for('p3') }}">৩. সেবা</a><a href="{{ url_for('p4') }}">৪. তথ্য ও যোগাযোগ</a><a class="btn primary" href="{{ url_for('book') }}">সেশন বুক</a></nav></div></header>
+<section class="section"><div class="wrap"><div class="center"><span class="pill">পৃষ্ঠা ৪ • তথ্য, FAQ ও পরিচালনা</span><h2>প্রয়োজনীয় সব তথ্য এক জায়গায়</h2></div>
+<div class="grid2" style="margin-top:28px"><div class="card"><h3>সাধারণ প্রশ্ন</h3>
+<details open><summary>সেশন কতক্ষণ?</summary><p class="muted">সাধারণত ৪৫–৬০ মিনিট; পরিস্থিতি অনুযায়ী পরিবর্তন হতে পারে।</p></details>
+<details><summary>মূল্য কত?</summary><p class="muted">ওয়েবসাইটে নির্দিষ্ট মূল্য নেই। আপনি কাস্টমারের সঙ্গে কথা বলে মূল্য জানাবেন।</p></details>
+<details><summary>আমার তথ্য গোপন থাকবে?</summary><p class="muted">Privacy Policy অনুযায়ী তথ্য ব্যবস্থাপনা করা হবে। জরুরি নিরাপত্তাজনিত পরিস্থিতিতে প্রযোজ্য আইন/পেশাগত নীতিমালা মানতে হবে।</p></details>
+</div>
+<div class="card"><h3>ব্যবহারকারীর সুবিধা</h3><p>আপনি ফর্ম পাঠানোর পরে একটি Reference ID পাবেন। সেই ID দিয়ে <b>স্ট্যাটাস দেখুন</b> পেজে গিয়ে আপনার অনুরোধের অবস্থা ও Admin-এর উত্তর দেখতে পারবেন।</p><div class="actions"><a class="btn primary" href="/status">স্ট্যাটাস দেখুন</a><a class="btn" href="/contact">যোগাযোগ</a></div>
+<hr style="border:0;border-top:1px solid var(--line);margin:22px 0"><h3>গোপনীয়তা ও শর্ত</h3><p class="muted">Privacy Policy এবং Terms & Conditions ফাইলগুলো package-এর সঙ্গে দেওয়া হয়েছে। লাইভ করার আগে পেশাদার/আইনি review করুন।</p></div></div>
+</div></section>
+<section class="section" style="padding-top:5px"><div class="wrap"><div class="card" style="background:#fff8e9"><h3>⚠️ জরুরি নোট</h3><p>তাৎক্ষণিক আত্মহানি, সহিংসতা বা মেডিকেল জরুরি অবস্থায় এই ওয়েবসাইটের অ্যাপয়েন্টমেন্ট ব্যবস্থার ওপর নির্ভর করবেন না। স্থানীয় জরুরি সেবা, নিকটস্থ হাসপাতাল বা যোগ্য পেশাজীবীর সহায়তা নিন।</p></div></div></section>
+
+<footer><div class="wrap footgrid"><div><div class="foot-title">মনের কথা</div><p>শুনবো • পাশে থাকবো • সুস্থভাবে এগোতে সাহায্য করবো</p><p>ফোন / WhatsApp: <b>01735258091</b><br>নগদ: <b>01735258091</b></p></div>
+<div><div class="foot-title">দ্রুত লিংক</div><a class="footlink" href="{{ url_for('book') }}">অ্যাপয়েন্টমেন্ট</a><a class="footlink" href="{{ url_for('anonymous') }}">বেনামী বার্তা</a><a class="footlink" href="{{ url_for('status') }}">স্ট্যাটাস দেখুন</a></div>
+<div><div class="foot-title">সতর্কতা</div><p class="small">এই সাইট জরুরি চিকিৎসা/ক্রাইসিস সেবার বিকল্প নয়। জরুরি বিপদে স্থানীয় জরুরি সেবা বা কাছের হাসপাতালের সহায়তা নিন।</p></div></div>
+<div class="wrap copy">© 2026 মনের কথা — সর্বস্বত্ব সংরক্ষিত</div></footer></body></html>
